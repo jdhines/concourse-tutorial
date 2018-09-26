@@ -9,6 +9,7 @@ The central concept of Concourse is to run tasks. You can run them directly from
 ```
 git clone https://github.com/starkandwayne/concourse-tutorial
 cd concourse-tutorial/tutorials/basic/task-hello-world
+fly -t tuorial login -u admin -p admin
 fly -t tutorial execute -c task_hello_world.yml
 ```
 
